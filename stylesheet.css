@@ -1,0 +1,100 @@
+body {
+  color: #b0b0b0;
+  font-family: "Jersey 20", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+  background-color: #2e253d;
+  padding: 0px;
+  margin: 0;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 4rem;
+  margin-bottom: 6px;
+}
+h3 {
+  font-size: 1.5rem;
+}
+p {
+  font-size: 1.3rem;
+}
+.container span {
+  color: #b0b0b0;
+}
+.nav-link {
+  font-size: large;
+  color: #b0b0b0;
+}
+.nav-link:hover {
+  color: #b20069;
+}
+input {
+  background-color: #272c36;
+  width: 80%;
+  color: #b0b0b0;
+  padding: 7px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+form {
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input:focus {
+  background-color: #363127;
+}
+form button {
+  background-color: transparent;
+  color: #b0b0b0;
+  font-size: 1.3rem;
+  padding: 4px 10px;
+  margin: 8px;
+  width: 40%;
+  border: 5px wh;
+}
+form button:hover {
+  background-color: #363127;
+  box-shadow: none;
+}
+.row > div > h1 {
+  color: #c2b948;
+
+  text-align: center;
+}
+.btn-facebook {
+  display: inline-block;
+  width: 70%;
+  font-size: large;
+
+  padding: 10px 20px;
+  background-color: #3b5998; /* Facebook's brand color */
+  color: white;
+  text-decoration: none;
+}
+
+.btn-facebook:hover {
+  background-color: #2d4373; /* Darker shade for hover effect */
+}
+.btn-google {
+  width: 70%;
+  font-size: large;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #dd4b39; /* Google's brand color */
+  color: white;
+  text-decoration: none;
+}
+
+.btn-google:hover {
+  background-color: #c23321; /* Darker shade for hover effect */
+}
+button img {
+  height: 30px;
+}
