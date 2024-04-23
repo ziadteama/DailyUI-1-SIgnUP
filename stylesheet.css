@@ -70,7 +70,7 @@ form button:hover {
 }
 .btn-facebook {
   display: inline-block;
-  width: 70%;
+  width: 100%;
   font-size: large;
 
   padding: 10px 20px;
@@ -83,7 +83,7 @@ form button:hover {
   background-color: #2d4373; /* Darker shade for hover effect */
 }
 .btn-google {
-  width: 70%;
+  width: 100%;
   font-size: large;
   display: inline-block;
   padding: 10px 20px;
